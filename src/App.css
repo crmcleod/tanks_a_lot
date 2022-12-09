@@ -36,3 +36,101 @@
     transform: rotate(360deg);
   }
 }
+
+#game-area {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #3fd07b;
+}
+#ground {
+height: 30%;
+width: 100%;
+position: absolute;
+bottom: 0;
+background-color: darkgreen;
+}
+
+.health-bar{
+  width: 20%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  border: 8px white solid;
+  border-radius: 0.6rem;
+  background-color: #4e6b73;
+  top: 5%;
+}
+#you {
+  left: 5%;
+}
+#aggressor {
+  right: 5%;
+}
+#aggressor .health-level {
+  right: 0;
+  position: absolute;
+}
+.health-level {
+  height:100%;
+  background-color: aquamarine;
+}
+.tank {
+  width: 30%;
+  height: 25%;
+  bottom: 30%;
+  position: absolute;
+  background-color: blue;
+  display: flex;
+}
+#your-tank {
+  left: 5%;
+}
+#their-tank {
+  right: 5%;
+}
+.enemy-bullet {
+  position: inherit;
+  display: flex;
+  background-color: black;
+  height: 3px;
+  width: 3px;
+  top: 50%;
+  animation: enemy-shoot ease forwards infinite 0.6s;
+  transition: 0.2s ease-in;
+}
+.your-bullet {
+  position: inherit;
+  display: flex;
+  background-color: black;
+  height: 3px;
+  width: 3px;
+  top: 45%;
+  animation: your-shoot ease forwards 0.6s;
+  transition: 0.2s ease-in;
+}
+
+@keyframes your-shoot {
+  0% {
+    left: 100%;
+  } 
+  100% {
+    left: 
+      200%
+    
+  }
+}
+@keyframes enemy-shoot {
+  0% {
+    right: 100%;
+  } 
+  100% {
+    right: 
+      200%
+    
+  }
+}
