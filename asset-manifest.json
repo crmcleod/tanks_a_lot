@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tanks_a_lot/static/css/main.e1c19a8b.css",
+    "main.js": "/tanks_a_lot/static/js/main.975c6d41.js",
+    "static/js/787.23303c39.chunk.js": "/tanks_a_lot/static/js/787.23303c39.chunk.js",
+    "index.html": "/tanks_a_lot/index.html",
+    "main.e1c19a8b.css.map": "/tanks_a_lot/static/css/main.e1c19a8b.css.map",
+    "main.975c6d41.js.map": "/tanks_a_lot/static/js/main.975c6d41.js.map",
+    "787.23303c39.chunk.js.map": "/tanks_a_lot/static/js/787.23303c39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1c19a8b.css",
+    "static/js/main.975c6d41.js"
+  ]
+}
